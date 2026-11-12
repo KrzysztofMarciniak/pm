@@ -1,0 +1,93 @@
+# Build outputs
+/build/
+/out/
+/cmake-build-*/
+
+# Compiled files and dependency data
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+*.ilk
+*.pdb
+*.pch
+*.gch
+
+# Test and coverage artifacts
+/Testing/
+/test-results/
+/coverage/
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# CMake / Ninja output
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Autotools output (keep configure: the dependency-free build uses it)
+/autom4te.cache/
+/aclocal.m4
+/Makefile.in
+/config.guess
+/config.sub
+/config.log
+/config.status
+/libtool
+/ltmain.sh
+/missing
+/install-sh
+/depcomp
+*.la
+*.lo
+.libs/
+
+# Local configuration and caches
+config.mk
+config.site
+.cache/
+
+# Editors and IDEs - generated .vscode files are shared; ignore user state.
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+.#*
+\#*\#
+
+# Operating-system clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and crash dumps
+*.log
+*.stackdump
+*.core
+core
+core.*
