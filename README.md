@@ -1,4 +1,4 @@
-# PM — C/C++ project maker and `libpm`
+# PM (Project Maker)
 
 PM is a small C99 command-line project generator with a reusable static
 library. It creates C or C++ projects with Make, CMake, POSIX shell,
