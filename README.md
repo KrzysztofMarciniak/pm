@@ -5,6 +5,9 @@ library. It creates C or C++ projects with Make, CMake, POSIX shell,
 `configure`, or Autotools build files. It uses the system C library and the
 normal system compiler drivers: `cc` for C and `c++` for C++.
 
+![pm](PM.png)
+
+
 ## 1. Build and install PM
 
 Requirements: a POSIX-like system, a C99 compiler, and `make`. Optional
